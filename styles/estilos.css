@@ -18,28 +18,29 @@ ul{
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
-    font-family: bolder;
+    font-weight: bolder;
+    color: white;
 }
 
 .button:hover{
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 
 .mainButton{
     background-color: #1bb76e;
-    color: white;
+
 }
 
 .mainButton:hover {
-    box-shadow: 2px 2px grey;
+    box-shadow: 2px 2px #7567c4;
 }
 
 .secondaryButton{
-    background-color: #4224eb;
-    color: white;
+    background-color: #7567c4;
+
 }
 
 .secondaryButton:hover {
-    transform: scale(1.1);
+    box-shadow: 2px 2px #1bb76e;
 }
