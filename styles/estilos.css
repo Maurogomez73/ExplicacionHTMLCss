@@ -29,3 +29,18 @@ ul{
     box-shadow: 2px 2px grey;
     transform: scale(1.1);
 }
+.secondaryButton{
+    background-color: #4224eb;
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 2px 2px grey;
+}
+
+.secondaryButton:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px grey;
+    transform: scale(1.1);
+}
