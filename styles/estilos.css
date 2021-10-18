@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo{
+    height:70px;
+}
+
+.button{
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: white;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.mainButton{
+    background-color: #1bb76e;
+}
+
+.mainButton:hover {
+    box-shadow: 2px 2px #7567c4;
+}
+
+.secondaryButton{
+    background-color: #7567c4;
+}
+
+.secondaryButton:hover {
+    box-shadow: 2px 2px #1bb76e;
+}
+
+.buscar{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.buscar:focus-within{
+    border: 1px solid blue;
+}
+
+.buscar > input{
+    outline: none;
+    border: 0px;
+}
