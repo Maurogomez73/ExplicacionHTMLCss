@@ -14,9 +14,6 @@ function App() {
     <div className="App">
         <Router>
             <Switch>
-                <Route path='/index'>
-                    <Index />
-                </Route>
                 <Route path='/borderCollie'>
                     <BorderCollieInfoPage />
                 </Route>
@@ -31,6 +28,9 @@ function App() {
                 </Route>
                 <Route path='/sammy'>
                     <SamyInfoPage />
+                </Route>
+                <Route path='/'>
+                    <Index />
                 </Route>
             </Switch>
         </Router> 
