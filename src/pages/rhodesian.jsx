@@ -1,8 +1,15 @@
+import React from 'react'
+import Header from 'components/Header';
+import Footer from 'components/Footer';
 
-
-
-function RhodesianInfoPage() {
-    return <div>Esta es la pagina de info del rhodesian</div>
+const rhodesian = () => {
+    return (
+        <div>
+            <Header />
+            <div>Esta es la pagina de info del rhodesian</div>
+            <Footer />
+        </div>
+    )
 }
 
-export default RhodesianInfoPage;
+export default rhodesian

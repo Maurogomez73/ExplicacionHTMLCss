@@ -1,8 +1,16 @@
 
+import React from 'react'
+import Header from 'components/Header';
+import Footer from 'components/Footer';
 
-
-function SchnauzerInfoPage() {
-    return <div>Esta es la pagina de info del schnauzer</div>
+const schnauzer = () => {
+    return (
+        <div>
+            <Header />
+            <div>Esta es la pagina de info del schnauzer</div>
+            <Footer />
+        </div>
+    )
 }
 
-export default SchnauzerInfoPage;
+export default schnauzer

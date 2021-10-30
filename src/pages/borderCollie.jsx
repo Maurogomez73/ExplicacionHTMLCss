@@ -1,8 +1,15 @@
+import React from 'react'
+import Header from 'components/Header';
+import Footer from 'components/Footer';
 
-
-
-function BorderCollieInfoPage() {
-    return <div>Esta es la pagina de info del border collie</div>
+const borderCollie = () => {
+    return (
+        <div>
+            <Header />
+            <div>Esta es la pagina de info del border collie</div>
+            <Footer />
+        </div>
+    )
 }
 
-export default BorderCollieInfoPage;
+export default borderCollie

@@ -1,33 +1,16 @@
-
 import CardRazasPerros from 'components/CardRazasPerros';
-import logo from 'media/Logo_Soft.png';
+import Footer from 'components/Footer'
+import Header from 'components/Header';
 import borderCollie from 'media/BorderCollie.jpg';
 import sammy from 'media/Sammy.jpeg';
 import rhodesian from 'media/Rhodesian.jpg';
 import sanBernardo from 'media/San bernardo.jpg';
 
+
 function Index() {
     return(
         <div>
-            <header>
-        <ul className="navbar">
-            <li>
-                <img src={logo} alt="imagen logo empresa" className="logo"/>
-            </li>
-            <li>
-                <button className="button mainButton">Nuevo post</button>
-            </li>
-            <li>
-                <div className="buscar">
-                    <input placeholder="Buscar una raza"/>
-                    <i className="fas fa-search button iconoBusqueda"></i>
-                </div>
-            </li>
-            <li><button className="button secondaryButton">Login</button></li>
-            <li><button className="button mainButton">Registro</button></li>
-        </ul>
-        
-        </header>
+            <Header />
         <main>
             <section>
                 <h1>Razas de Perros</h1>
@@ -41,7 +24,7 @@ function Index() {
             </section>
             <section></section>
         </main>
-        <footer></footer>
+        <Footer />
         </div>
         
     )
