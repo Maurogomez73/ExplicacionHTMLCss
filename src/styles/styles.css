@@ -8,6 +8,25 @@ ul{
   margin: 0px;
 }
 
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContainer > main{
+  height: 100%;
+  text-align: center;
+}
+
+.mainContainer > footer{
+  background-color: rgb(44, 42, 119);
+  padding: 15px;
+  color: white;
+  text-align: center;
+}
+
+
 .navbar{
   display: flex;
   justify-content: space-between;

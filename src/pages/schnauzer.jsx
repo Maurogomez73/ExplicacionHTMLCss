@@ -3,14 +3,8 @@ import React from 'react'
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 
-const schnauzer = () => {
-    return (
-        <div>
-            <Header />
-            <div>Esta es la pagina de info del schnauzer</div>
-            <Footer />
-        </div>
-    )
+const Schnauzer = () => {
+    return  <div>Esta es la pagina de info del schnauzer</div>
 }
 
-export default schnauzer
+export default Schnauzer

@@ -1,15 +1,8 @@
-import React from 'react'
-import Header from 'components/Header';
-import Footer from 'components/Footer';
 
-const rhodesian = () => {
-    return (
-        <div>
-            <Header />
-            <div>Esta es la pagina de info del rhodesian</div>
-            <Footer />
-        </div>
-    )
+import React from 'react'
+
+const Rhodesian = () => {
+    return <div>Información Sobre el Rhodesian</div>;
 }
 
-export default rhodesian
+export default Rhodesian

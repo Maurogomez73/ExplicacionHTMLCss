@@ -1,15 +1,10 @@
 import React from 'react'
-import Header from 'components/Header';
-import Footer from 'components/Footer';
 
-const borderCollie = () => {
+
+const BorderCollie = () => {
     return (
-        <div>
-            <Header />
-            <div>Esta es la pagina de info del border collie</div>
-            <Footer />
-        </div>
+        <div>Información sobre el border collie</div>
     )
 }
 
-export default borderCollie
+export default BorderCollie
